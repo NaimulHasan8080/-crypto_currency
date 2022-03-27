@@ -1,0 +1,44 @@
+
+.rec-pagination {
+  display: none !important;
+}
+.rec-arrow-left {
+  background: #c9c200 !important;
+  margin-left: 30px !important;
+  border-radius: 0 !important;
+}
+.rec-arrow-right {
+  background: #c9c200 !important;
+  margin-right: 30px !important;
+  border-radius: 0 !important;
+}
+.cNNJIt {
+  background-color: #c9c200 !important;
+  border-radius: 0 !important;
+  margin: 0 10px !important;
+}
+.cNNJIt:disabled {
+  margin-right: 30px !important;
+}
+.rec-pagination {
+  display: none !important;
+}
+.rec-arrow-left {
+  background: #c9c200 !important;
+  margin-left: 30px !important;
+  border-radius: 0 !important;
+}
+.rec-arrow-right {
+  background: #c9c200 !important;
+  margin-right: 30px !important;
+  border-radius: 0 !important;
+}
+.cNNJIt {
+  background-color: #c9c200 !important;
+  border-radius: 0 !important;
+  margin: 0 10px !important;
+}
+.cNNJIt:disabled {
+  margin-right: 30px !important;
+  margin-left: 30px !important;
+}

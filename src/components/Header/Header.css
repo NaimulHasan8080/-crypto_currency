@@ -1,0 +1,56 @@
+
+.header-section {
+  background-image: url("../../images/bg/Background.png");
+  background-position: center center;
+  background-size: cover;
+  padding: 20px 0 220px 0;
+}
+.header_text {
+  color: white;
+  justify-content: center;
+  align-items: center;
+  margin: 35px 0;
+}
+.header_text h3 {
+ font-weight: 400;
+  font-family: 'Oswald', sans-serif;
+
+}
+
+
+#btn {
+  margin: 4rem 0 0 4rem;
+  border: 1px solid lightgray;
+  padding: 0.7rem 2rem;
+  color: white;
+}
+.icons-parent-grd{
+  position: relative;
+}
+.icons-parent {
+  position: absolute;
+  padding-top: 50px;
+  top: 90px;
+  right: 0px;
+
+
+}
+.icons {
+  margin:0 24px;
+  color: #C9C200;
+  font-size: 2.3rem;  
+}
+
+@media screen and (max-width: 767px){
+  .icons-parent {
+  display: flex;
+  justify-content: center;
+}
+}
+@media screen and (max-width: 320px){
+ .icons {
+  margin:0 18px;
+  color: #C9C200;
+  font-size: 2rem;
+}
+}

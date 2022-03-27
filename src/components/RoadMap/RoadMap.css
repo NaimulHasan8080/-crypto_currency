@@ -1,0 +1,517 @@
+.road_top{
+  margin-top: 10rem;
+  margin-bottom: 10rem;
+}
+.ps-timeline-sec {
+  position: relative;
+}
+.ps-timeline-sec .container {
+  position: relative;
+}
+.map_logo{
+  position: relative;
+}
+
+.ps-top-logo{
+  position: absolute;
+  bottom: 130px;
+}
+.ps-timeline-sec .container ol:before {
+  background: #c9c200;
+  content: "";
+  width: 10px;
+  height: 10px;
+  position: absolute;
+  top: -6px;
+}
+.ps-timeline-sec .container ol:after {
+  background: #c9c200;
+  content: "";
+  width: 10px;
+  height: 10px;
+  position: absolute;
+  right: -3px;
+  top: -6px;
+}
+.ps-timeline-sec .container ol.ps-timeline {
+  margin: 30rem 0 40rem 0;
+  /* height: 100rem; */
+  padding: 0;
+  border-top: 2px solid #c9c200;
+  list-style: none;
+}
+.ps-timeline-sec .container ol.ps-timeline li {
+  float: left;
+  width: 25%;
+  padding-top: 30px;
+  position: relative;
+  list-style: none;
+}
+
+.ps-timeline-sec .container ol.ps-timeline li span {
+  width: 60px;
+  height: 60px;
+  padding: 17px;
+  background: #291400;
+  margin-left: -25px;
+  border: 2px dotted gray;
+  border-radius: 50%;
+  text-align: center;
+  color: #c9c200;
+  font-size: 16px;
+  font-weight: 500;
+  font-style: normal;
+  position: absolute;
+  top: -34px;
+  left: 50%;
+  
+}
+.ps-timeline-sec .container ol.ps-timeline li span strong{
+    border: 1px solid #c9c200;
+    width: 45px;
+    height: 45px;
+    display: inline-block;
+    border-radius: 50%;
+    padding: 10px;
+    position: absolute;
+    bottom: 6px;
+    right: 6px;
+
+
+
+}
+.ps-timeline-sec .container ol.ps-timeline li span.ps-sp-top::after {
+  content: "";
+  color: #c9c200;
+  width: 2px;
+  height: 50px;
+  background: #c9c200;
+  position: absolute;
+  top: 50px;
+  left: 50%;
+}
+.ps-timeline-sec .container ol.ps-timeline li span.ps-sp-top::before {
+  content: "";
+  color: #c9c200;
+  width: 8px;
+  height: 8px;
+  background: #c9c200;
+  position: absolute;
+  top: 100px;
+  left: 44%;
+  border-radius: 100%;
+}
+.ps-timeline-sec .container ol.ps-timeline li span.ps-sp-bot::after {
+  content: "";
+  color: #c9c200;
+  width: 2px;
+  height: 50px;
+  background: #c9c200;
+  position: absolute;
+  bottom: 50px;
+  left: 50%;
+}
+.ps-timeline-sec .container ol.ps-timeline li span.ps-sp-bot::before {
+  content: "";
+  color: #c9c200;
+  width: 8px;
+  height: 8px;
+  background: #c9c200;
+  position: absolute;
+  bottom: 100px;
+  left: 44%;
+  border-radius: 100%;
+}
+
+ .road_title{
+    color: #c9c200;
+    margin: 16px 0;
+    font-size: 20px;
+  }
+.ps-timeline-sec .container ol.ps-timeline li p {
+  /* text-align: center; */
+  font-size: 14px;
+  
+}
+.ps-timeline-sec .container ol.ps-timeline li .ps-top-1 {
+  position: absolute;
+  bottom: 120px;
+  left: 5rem;
+  width: 220px;
+  
+}
+.ps-timeline-sec .container ol.ps-timeline li .ps-top-2 {
+  position: absolute;
+  bottom: 120px;
+  left: 5rem;
+  width: 220px;
+}
+.ps-timeline-sec .container ol.ps-timeline li .ps-bot-1 {
+  position: absolute;
+  margin-top: 35px;
+  left: 5rem;
+  width: 220px;
+}
+.ps-timeline-sec .container ol.ps-timeline li .ps-bot-2 {
+  position: absolute;
+  margin-top: 35px;
+  left: 5rem;
+  width: 220px;
+}
+.ps-timeline{
+  position: relative ;
+}
+
+@media screen and (max-width: 991px){
+  .ps-timeline-sec .container ol.ps-timeline li .ps-top-1 {
+  position: absolute;
+  bottom: 120px;
+  left: 3rem;
+  width: 147px;
+}
+  .ps-timeline-sec .container ol.ps-timeline li .ps-top-2 {
+  position: absolute;
+  bottom: 120px;
+  left: 3rem;
+  width: 147px;
+
+}
+
+ .road_title{
+    
+    font-size: 16px;
+  }
+.ps-timeline-sec .container ol.ps-timeline li p {
+  /* text-align: center; */
+  font-size: 12px;
+  
+}
+
+}
+
+/* media query */
+
+
+@media screen and (max-width: 767px) {
+  .ps-timeline-sec .container ol:before {
+    background: #c9c200;
+    content: "";
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    position: absolute;
+    top: -6px !important;
+    left: -6px !important;
+  }
+  .ps-timeline-sec .container ol:after {
+    background: #c9c200;
+    content: "";
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    position: absolute;
+    top: inherit !important;
+    left: -6px;
+  }
+  .road_top{
+  margin-top: 4rem;
+}
+
+.icons {
+    margin: 0 16px;
+    
+}
+  .ps-timeline-sec .container ol.ps-timeline {
+    margin: 130px 0 !important;
+    border-left: 2px solid #c9c200;
+    padding-left: 0 !important;
+    padding-top: 120px !important;
+    border-top: 0 !important;
+    margin-left: 25px !important;
+  }
+  .ps-timeline-sec .container ol.ps-timeline li {
+    height: 350px;
+    float: none !important;
+    padding: 0;
+
+  }
+
+  .ps-timeline-sec .container ol.ps-timeline li:last-child {
+    
+    margin: 0;
+    bottom: 0 !important;
+  }
+
+  .ps-timeline-sec .container ol.ps-timeline li p {
+  font-size: 14px;
+}
+  
+  .ps-timeline-sec .container ol.ps-timeline li:last-child .ps-top-1 {
+    margin-bottom: 0 !important;
+    top: 20px;
+    width: 50% !important;
+  }
+  .ps-timeline-sec .container ol.ps-timeline li:last-child .ps-top-2 {
+    margin-bottom: 0 !important;
+    top: 65px;
+    width: 250px;
+}
+  .ps-timeline-sec .container ol.ps-timeline li span {
+    left: 0 !important;
+    margin-left: -33px;
+    margin-top: 120px;
+  }
+  .ps-timeline-sec .container ol.ps-timeline li span.ps-sp-top:before {
+    content: none !important;
+  }
+  .ps-timeline-sec .container ol.ps-timeline li span.ps-sp-top:after {
+    content: none !important;
+  }
+  .ps-timeline-sec .container ol.ps-timeline li span.ps-sp-bot:before {
+    content: none !important;
+  }
+  .ps-timeline-sec .container ol.ps-timeline li span.ps-sp-bot:after {
+    content: none !important;
+  }
+ 
+
+  .ps-timeline-sec .container ol.ps-timeline li p {
+    text-align: left !important;
+    width: 100% !important;
+    margin: 0 auto !important;
+    margin-top: 0px !important;
+  }
+  .ps-timeline-sec .container ol.ps-timeline li .ps-top-1 {
+    position: absolute;
+    bottom: 100px;
+    left: 3rem;
+    width: 250px;
+}
+.ps-timeline-sec .container ol.ps-timeline li .ps-top-2 {
+    position: absolute;
+    bottom: 80px;
+    left: 3rem;
+    width: 250px;
+    top: -20px;
+}
+.ps-timeline-sec .container ol.ps-timeline li .ps-bot-1 {
+    position: absolute;
+    margin-top: 76px;
+    left: 3rem;
+    width: 250px;
+}
+.ps-timeline-sec .container ol.ps-timeline li .ps-bot-2 {
+    position: absolute;
+    margin-top: 70px;
+    left: 3rem;
+    height: 200px;
+    width: 250px !important;
+}
+
+  .roadmap_text{
+    margin-bottom: 9rem;
+  }
+ .ps-top-logo{
+  position: absolute;
+  margin-top: -220px;
+}
+  nav img {
+    margin-top: 10px;
+    width: 110px;
+}
+.common_btn {
+    
+    padding: 8px 20px;
+}
+}
+
+
+@media screen and (max-width: 1110px){
+    .ps-timeline-sec .container ol.ps-timeline li .ps-top-2 {
+    position: absolute;
+    bottom: 120px;
+    left: 1rem;
+    width: 220px;
+}
+    .ps-timeline-sec .container ol.ps-timeline li .ps-top-1 {
+    position: absolute;
+    bottom: 120px;
+    left: 5rem;
+    width: 220px;
+}
+nav img {
+    width: 170px;
+    position: absolute;
+    padding-top: 10px;
+    margin-left: -4%;
+}
+nav ul li {
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 6px;
+}
+}
+@media screen and (max-width: 991px){
+ .ps-timeline-sec .container ol.ps-timeline li .ps-top-1 {
+    position: absolute;
+    bottom: 120px;
+    left: 2rem;
+    width: 220px;
+}
+
+}
+
+@media screen and (max-width: 768px){
+.ps-timeline-sec .container ol.ps-timeline li .ps-bot-1 {
+  position: absolute;
+  margin-top: 35px;
+  left: 1rem;
+  width: 220px;
+}
+.ps-timeline-sec .container ol.ps-timeline li .ps-bot-2 {
+  position: absolute;
+  margin-top: 35px;
+  left: 1rem;
+  width: 220px;
+}
+}
+@media screen and (max-width: 576px){
+.ps-timeline-sec .container ol.ps-timeline li:last-child .ps-top-2 {
+  margin-bottom: 0 !important;
+  top: 7px;
+  left: 50px;
+  width: 250px;
+}
+.ps-timeline-sec .container ol.ps-timeline li .ps-top-1 {
+  position: absolute;
+  bottom: 156px;
+  left: 3rem;
+  width: 220px;
+}
+.ps-timeline-sec .container ol.ps-timeline li .ps-bot-2 {
+  position: absolute;
+  margin-top: 0px;
+  left: 3rem;
+  height: 200px;
+  width: 220px !important;
+}
+.ps-timeline-sec .container ol.ps-timeline li .ps-bot-1 {
+  position: absolute;
+  margin-top: -35px;
+  left: 3rem;
+  width: 250px;
+}
+}
+
+@media screen and (max-width: 320px){
+  .ps-top-logo{
+    position: absolute;
+
+  }
+  .ps-timeline-sec .container ol.ps-timeline li {
+  float: left;
+  width: 25%;
+  padding-top: 20px;
+  position: relative;
+  list-style: none;
+}
+
+.ps-timeline-sec .container ol.ps-timeline li:last-child .ps-top-2 {
+    margin-bottom: 0 !important;
+    top: 95px;
+    width: 210px;
+}
+
+.ps-timeline-sec .container ol.ps-timeline li .ps-top-1 {
+  position: absolute;
+  bottom: 150px;
+  left: 3rem;
+  width: 210px;
+}
+.ps-timeline-sec .container ol.ps-timeline li:last-child .ps-top-2 {
+  margin-bottom: 0 !important;
+  top: 45px;
+  width: 210px;
+}
+.ps-timeline-sec .container ol.ps-timeline li .ps-bot-1 {
+  position: absolute;
+  margin-top: -15px;
+  left: 3rem;
+  width: 210px;
+}
+.ps-timeline-sec .container ol.ps-timeline li .ps-bot-2 {
+  position: absolute;
+  margin-top: 20px;
+  left: 3rem;
+  width: 210px !important;
+}
+    
+  .road_title{
+    margin: 0;
+    font-size: 18px;
+  }
+  li{
+    padding: 0;
+    margin: 0;
+  }
+}
+@media screen and (max-width: 240px){
+  .ps-top-logo{
+    position: absolute;
+
+  }
+  .ps-timeline-sec .container ol.ps-timeline li {
+  float: left;
+  width: 25%;
+  padding-top: 0px;
+  position: relative;
+  list-style: none;
+}
+
+.ps-timeline-sec .container ol.ps-timeline li:last-child .ps-top-2 {
+    margin-bottom: 0 !important;
+    top: 95px;
+    width: 130px;
+}
+
+.ps-timeline-sec .container ol.ps-timeline li .ps-top-1 {
+    position: absolute;
+    bottom: 23px;
+    left: 3rem;
+    width: 130px;
+}
+.ps-timeline-sec .container ol.ps-timeline li .ps-top-2 {
+    position: absolute;
+    bottom: 80px;
+    left: 3rem;
+    width: 130px;
+    top: -20px;
+}
+.ps-timeline-sec .container ol.ps-timeline li .ps-bot-1 {
+  position: absolute;
+  margin-top: 30px;
+  left: 3rem;
+  width: 130px;
+}
+.ps-timeline-sec .container ol.ps-timeline li .ps-bot-2 {
+    position: absolute;
+    margin-top: 45px;
+    left: 3rem;
+    width: 130px !important;
+}
+    
+ .road_title {
+  margin: 0;
+  margin-bottom: 5px;
+  font-size: 12px;
+}
+  li{
+    padding: 0;
+    margin: 0;
+  }
+  .ps-timeline-sec .container ol.ps-timeline li span {
+    left: 0 !important;
+    margin-left: -33px;
+    margin-top: 203px;
+}
+}

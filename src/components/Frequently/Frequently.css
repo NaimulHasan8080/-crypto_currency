@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap");
+
+* {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  padding: 0;
+  box-sizing: border-box;
+}
+.accordion-button:not(.collapsed){
+  color: #000;
+}
+.frequently_section {
+  background-color: #201101;
+  padding: 70px 0;
+}
+.frequently_section h2 {
+}
+
+.accordion-button {
+  background: #acac09 !important;
+}
+.accordion-button.show::before {
+  background: #201101 !important;
+}
+.accordion-button::after {
+  content: "+" !important;
+  margin-top: -2rem;
+  margin-right: 1rem;
+  font-size: 3rem !important;
+  background-image: none;
+}
+.accordion-button:not(.collapsed)::after {
+  background-image: none;
+  content: "-" !important;
+  margin-top: -3rem;
+  margin-right: 1rem;
+  font-size: 4rem !important;
+  transform: rotate(0);
+}
+.accordion-header {
+  background-color: #c5c632 !important;
+}
+.items {
+  margin-top: 10px;
+}
+.accordion-body {
+  background: #201101;
+  color: white;
+}
+.btn_gen, .btn_public, .btn_token {
+  padding: 10px 30px;
+  border: 1px solid #c5c632;
+  color: #c5c632;
+  background: #201101;
+  border-radius: 4px;
+  margin-right: 8px;
+  margin-top: 10px;
+  font-weight: 500;
+}
+
+
+.btn_gen:hover,
+.btn_token:hover,
+.btn_public:hover {
+  background: #c5c632;
+  color: #201101;
+  
+}
